@@ -41,6 +41,7 @@ GEM
     minitest (5.8.0)
     multi_json (1.11.2)
     multi_xml (0.5.5)
+    puma (2.14.0)
     rack (1.6.4)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -76,6 +77,7 @@ PLATFORMS
 DEPENDENCIES
   grape
   grape-swagger
+  puma
   rack
   rack-test
   rspec
