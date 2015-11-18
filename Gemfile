@@ -8,6 +8,7 @@ gem 'grape-swagger'
 gem 'puma'
 
 group :development, :test do
+  gem 'rake'
   gem 'rack-test'
   gem 'rspec'
 end
