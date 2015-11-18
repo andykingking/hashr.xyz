@@ -7,6 +7,8 @@ gem 'grape'
 gem 'grape-swagger'
 gem 'puma'
 
+gem 'codeclimate-test-reporter', group: :test, require: nil
+
 group :development, :test do
   gem 'rake'
   gem 'rack-test'
